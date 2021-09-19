@@ -1,0 +1,43 @@
+html { 
+    background: url(homepage.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    color: white;
+    position: fixed;
+    padding: 2em;
+    left: 15%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.main-div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-div > * {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.div1 {
+    font-size: 3em;
+}
+
+.div2 {
+    font-size: 6em;
+}
+
+.div3 {
+    font-size: 3em;
+}
