@@ -3,15 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="clock.scss">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="countdown.js" type="text/javascript"></script>
     <title>Uyghur American Cup</title>
   </head>
   <body>
-    <h1 class="header">Uyghur American Cup</h1>
-    <div class="main-div">
-        <div class="div1">2022 UAC</div>
-        <div class="div2">COMING SOON</div>
-        <div class="div3">STAY TUNED!</div>
+    <div id="clockdiv">
+      <div>
+        <span class="days"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <span class="hours"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
     </div>
   </body>
 </html>
